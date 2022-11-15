@@ -8,6 +8,14 @@
         border-radius : 2px ;
         cursor : pointer ;
         margin-right: 10px ;
+        transition : opacity 0.15s ;
+    }
+    .sub-button:hover {
+        opacity : 0.8  ;
+    }
+
+    .sub-button:active {
+        opacity: 0.6 ;
     }
 
     .join-button {
@@ -19,7 +27,15 @@
         border-radius : 2px;
         cursor : pointer ;
         margin-right: 10px ;
-        
+        font-weight : bold ;
+        transition : background-color 1s , color 1s ;
+    }
+    .join-button:hover {
+        background-color : rgb(0, 58, 219);
+        color: white ;
+    }
+    .join-button:active {
+        opacity : 0.9;
     }
 
     .twi-button {
@@ -33,6 +49,10 @@
         font-size: 15px;
         cursor: pointer;
         margin-right: 10px ;
+        transition: box-shadow 0.5s ;
+    }
+    .twi-button:hover {
+        box-shadow: 1px 1px 15px rgba(0,0,0, 0.6);
     }
 
     .uber-button {
@@ -78,9 +98,12 @@
         font-weight: bold;
         border-radius: 3px ;
         margin-right: 10px ;
-    }
+    } 
 
 </style>
+
+
+
 
 <button class="sub-button">
     SUBSCRIBE
