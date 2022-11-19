@@ -1,250 +1,53 @@
-<style>
-    .sub-button {
-        background-color: rgb(203, 0, 0) ;
-        color : white ;
-        border : none;
-        padding : 13px 14px ;
-        border-radius : 4px ;
-        cursor : pointer ;
-        margin-right: 10px ;
-        transition : opacity 0.15s ;
-        vertical-align : top ;
-    }
-    .sub-button:hover {
-        opacity : 0.8  ;
-    }
+<!DOCTYPE html>
+<html>
+    <head>        
+        <title>Button Page</title>
+        <link rel="stylesheet" href="./cssFile/buttons.css">
+    </head>
 
-    .sub-button:active {
-        opacity: 0.6 ;
-    }
+    <body>        
+        <button class="sub-button">
+            SUBSCRIBE
+        </button>
 
-    .join-button {
-        background-color : white;
-        color: rgb(0, 58, 219) ;
-        border: 1px solid rgb(0, 58, 219) ;
-        height : 40px;
-        width : 55px;
-        border-radius : 2px;
-        cursor : pointer ;
-        margin-right: 10px ;
-        font-weight : bold ;
-        transition : background-color 1s , color 1s ;
-        vertical-align : top ;
-    }
-    .join-button:hover {
-        background-color : rgb(0, 58, 219);
-        color: white ;
-    }
-    .join-button:active {
-        opacity : 0.9;
-    }
+        <button class="join-button">
+            JOIN
+        </button>
 
-    .twi-button {
-        background-color : rgb(0, 157, 255) ;
-        color : white ;
-        border-radius: 20px ;
-        height : 40px;
-        width : 70px;
-        border: none;
-        font-weight: bold ;
-        font-size: 15px;
-        cursor: pointer;
-        margin-right: 10px ;
-        transition: box-shadow 0.5s ;
-        vertical-align : top ;
-    }
-    .twi-button:hover {
-        box-shadow: 1px 1px 15px rgba(0,0,0, 0.6);
-    }
+        <button class="twi-button">
+            Tweet
+        </button>
 
-    .uber-button {
-        background-color :black ;
-        color : white ;
-        cursor : pointer ;
-        border-radius : 1px ;
-        height : 40px;
-        width : 120px ; 
-        margin-right: 10px ;
-        transition: opacity 0.25s ;
-        vertical-align : top ;
-    }
-    .uber-button:hover {
-        opacity: 0.9 ;
-    }
+        <button class="uber-button">
+            Requesr Now
+        </button>
 
-    .amazon-button {
-        background-color : rgb(255, 216 , 20 );
-        color : black ; 
-        height : 40px;
-        width : 200px ;
-        cursor: pointer;
-        border : none ;
-        border-radius: 18px ;
-        font-weight: bold ;
-        margin-right: 10px ;
-        transition: background-color 0.25s ;
-        vertical-align : top ;
-    }
-    .amazon-button:hover {
-        background-color : rgb(238, 201, 15)
-    }
+        <button class="amazon-button">
+            Add To Cart
+        </button>
 
-    .bootstrap-button{
-        background-color :rgb(121,82,179);
-        height : 40px;
-        width: 100px ;
-        color: white ;
-        font-weight: bold;
-        border-radius: 4px ;
-        border : none; 
-        cursor : pointer;
-        margin-right: 10px ;
-        transition : background-color 0.25s ;
-        vertical-align : top ;
-    }
-    .bootstrap-button:hover {
-        background-color : rgb(104, 65, 163)
-    }
+        <button class="bootstrap-button">
+            Get Started
+        </button>
 
-    .download-button{
-        color : rgb(108,117,125);
-        height : 40px;
-        width : 100px ; 
-        cursor: pointer;
-        border: solid 2px;
-        font-weight: bold;
-        border-radius: 3px ;
-        margin-right: 10px ;
-        transition : background-color 0.25s  , color 0.25s ; 
-        vertical-align : top ;
-    }
-    .download-button:hover {
-        background-color : rgb(108 , 117 , 125 );
-        color : white ;
-    }
+        <button class="download-button">
+            Download
+        </button>
+
+        <br>
+        <button class="one-button">
+            One
+        </button>
+
+        <button class="two-button">
+            Two
+        </button>
+
+        <button class="three-button">
+            Three
+        </button>
+
+    </body>
+</html>
 
 
-
-    .one-button {
-        background-color : greenyellow ;
-
-        padding-top : 10px ;
-        padding-bottom: 10px;
-
-        padding-left: 15px ;
-        padding-right: 15px ;
-
-        margin-top : 10px ;
-        margin-left: 10px ;
-        margin-right: 10px ;
-
-        border : solid 2px;
-        border-radius : 3px ;
-        font-weight: bold;
-        cursor : pointer ;
-        transition: padding 0.25s , margin 0.25s ;
-    }
-    .one-button:hover{
-        padding-left: 25px ;
-        padding-right: 25px ;
-        margin-left: 0px ;
-        margin-right: 0px ;
-    }
-
-
-    .two-button {
-        background-color : greenyellow ;
-        font-weight: bold ;
-        border-radius: solid 2px ;
-        border-radius: 3px ;
-        cursor: pointer;
-
-        margin-top: 10px ;
-        margin-left: 10px;
-        margin-right: 10px ;
-
-        padding-left: 15px ;
-        padding-right: 15px ;
-        padding-top: 10px;
-        padding-bottom: 10px ;
-
-        box-shadow : 3px 3px 5px rgba(0, 0, 0, 0.3);
-    }
-    .two-button:active {
-        margin-top: 13px ;
-        margin-left: 13px ;
-        box-shadow : none ;
-    }
-
-
-    .three-button {
-        background-color : greenyellow ;
-        font-weight: bold ;
-        border: solid 2px ;
-        border-radius: 3px ;
-        cursor: pointer;
-
-        margin-top : 10px ;
-        margin-left: 10px ;
-
-        padding-left: 15px;
-        padding-right: 15px ;
-        padding-top: 10px;
-        padding-bottom: 10px ;
-
-        transition: padding 0.25s ;
-
-    }
-
-    .three-button:hover {
-        padding-right: 30px ;
-        padding-bottom: 30px ;
-        padding-left: 30px;
-        padding-top: 30px ;
-    }
-
-</style>
-
-
-
-
-<button class="sub-button">
-    SUBSCRIBE
-</button>
-
-<button class="join-button">
-    JOIN
-</button>
-
-<button class="twi-button">
-    Tweet
-</button>
-
-<button class="uber-button">
-    Requesr Now
-</button>
-
-<button class="amazon-button">
-    Add To Cart
-</button>
-
-<button class="bootstrap-button">
-    Get Started
-</button>
-
-<button class="download-button">
-    Download
-</button>
-
-<br>
-<button class="one-button">
-    One
-</button>
-
-<button class="two-button">
-    Two
-</button>
-
-<button class="three-button">
-    Three
-</button>
