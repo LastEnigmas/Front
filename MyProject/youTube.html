@@ -3,6 +3,9 @@
     <head>
         <title>Youtube Page</title>
         <style>
+            body {
+                font-family: "Helvetica Neue",Helvetica ;
+            }
             img {
                 border-radius: 5px ;
             }
@@ -11,11 +14,37 @@
                 width: 300px ;
             }
             .search-box {
+                display: block ;
+            }
+            .video-preview {
+                width: 300px ;
+                display: inline-block ;
+                text-align: center ;
+                margin-left: 5px ;
+                margin-top: 10px ;
+                background-color: rgb(209, 209, 209) ;
+                padding: 15px ;
+                vertical-align: top ;
+                
             }
         </style>
     </head>
     <body>
-        <img class="img-1" src="./img/thumbnail-1.webp">
         <input type="text" class="search-box" placeholder="Search">
+        <div class="video-preview">
+            <img class="img-1" src="./img/thumbnail-1.webp">
+            <p>How Can Do That?</p>
+            <p>please dont launch</p>
+            <p>Mehrshad Asadi</p>
+            <p>3.4M views</p>
+        </div>
+
+        <div class="video-preview">
+            <img class="img-1" src="./img/thumbnail-2.webp">
+            <p>Dont Laugh</p>
+            <p>the best way is here and today i will talk about that</p>
+            <p>Lila Asadi</p>
+            <p>3.4M views</p>
+        </div>
     </body>
 </html>
