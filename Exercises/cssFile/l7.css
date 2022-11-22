@@ -1,0 +1,55 @@
+
+
+.img-css {
+    width: 200px ;
+    border-radius: 15px ;
+    margin-right: 25px ;
+}
+
+.img-css2 {
+    width: 170px ;
+    height: 170px ;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 200px ;
+    margin-right: 25px ;
+}
+
+.img-css3 {
+    width: 170px ;
+    height: 170px ;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 13px ;
+}
+
+.search-box1 {
+    margin-top: 20px ;
+    font-size: 15px ;
+    padding-top: 8px ;
+    padding-bottom: 8px ;
+    padding-left: 12px ;
+    padding-right: 12px ;
+    border-radius: 8px ;
+    border-width: 1px ;
+    border-style: solid ;
+    border-color: rgb(200 , 200 , 200 );
+}
+
+.search-box2 {
+    margin-top: 20px ;
+    margin-left: 10px ;
+    margin-right: 10px ;
+
+    font-size: 15px ;
+    padding-left: 10px ;
+    padding-right: 120px ;
+    padding-top: 8px ;
+    padding-bottom: 8px ;
+    border-width: 1px ;
+    border-radius: 20px ;
+    border-style: solid ;
+    border-color: rgb(200 , 200 , 200 );
+
+    box-shadow: 1px 1px 2px rgba(0,0,0, 0.4);
+}
