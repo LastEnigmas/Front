@@ -1,0 +1,172 @@
+.d-1 {
+    border: 1px solid gray;
+    padding-right: 150px ;
+    padding-top: 5px ;
+    padding-bottom: 20px ;
+    padding-left: 10px ;
+    display: inline-block;
+    margin-bottom: 30px ;
+}
+
+.d-2 {
+    width: 50px ;
+    height: 50px ;
+    background-color: red;
+    margin-left: 50px ;
+    margin-bottom: 50px;
+}
+
+.d-3 {
+    width: 50px ;
+    height: 50px ;
+    background-color: greenyellow ;
+    border-radius: 25px ;
+    margin-left: 50px ;
+    margin-bottom: 50px;
+}
+
+.d-4 {
+    padding-right: 20px ;
+    padding-left: 20px ;
+
+    border: 1px solid gray ;
+    width: 320px ;
+    font-weight: bold;
+    font-family: "Helvetica Neue";
+    margin-bottom: 50px;
+}
+.title-you {
+    font-size: 20px ;
+}
+
+.d-5 {
+    width: 380px ;
+    border: 1px solid gray ;
+    padding-top: 10px ;
+    padding-left: 5px ;
+    padding-bottom: 5px ;
+    border-radius: 5px ;
+    background-color: white ;
+    margin-bottom: 20px ;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3 );
+}
+.img-d-5 {
+    height: 50px;
+    width: 50px ;
+    object-fit: cover ;
+    object-position: center ;
+    border-radius: 50px ;
+    display: inline-block;
+    vertical-align: middle ;
+    margin-right: 2px ;
+}
+.btn-d-5 {
+    background-color: rgb(0, 68, 214) ;
+    font-weight: bold ;
+    font-size: 12px ;
+    padding-top : 10px ;
+    padding-bottom: 10px ;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px  ;
+    border: none ;
+}
+.input-d-5 {
+    display: inline-block;
+    padding-left: 10px ;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+    padding-right: 25px;
+    font-size: 15px ;
+    background-color: white ;
+    vertical-align : middle ;
+    border: none ;
+    color: gray ;
+}
+
+.d-6 {
+    width: 200px ;
+    font-size: 15px ;
+    font-family: monospace ;
+    padding-top: 15px ;
+    padding-bottom: 15px;
+    padding-left: 20px ;
+    padding-right: 20px;
+    border : 1px solid gray ;
+    text-align:left ;
+    margin-bottom: 30px ;
+}
+
+.img-d-6 {
+    height: 250px ;
+    width: 200px ;
+    object-position: center;
+    object-fit: cover ;
+    margin-bottom: 5px ;
+}
+.title-d-6 {
+    margin-top: 0px ;
+    font-size: 18px ;
+    font-weight: bold ;
+    margin-bottom: 3px;
+}
+.body-d-6 {
+    margin-top: 0px ;
+    margin-bottom: 8px ;
+}
+.btn-d-6 {
+    margin-top: 0px ;
+    padding-left: 10px  ;
+    padding-right: 10px ;
+    padding-top: 7px ;
+    padding-bottom: 7px ;border: none ;
+    background-color: rgb(0, 81, 255) ;
+    border-radius: 5px ;
+    font-weight: bold ;
+}
+
+.d-7 {
+    display: inline-block;
+    height: 300px  ;
+    width: 680px ;
+    border: 1px solid gray ;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.d7-for-img {
+    display: inline-block;
+    background-color: rgb(201, 201, 201) ;
+    margin-left: 10px  ;
+    padding: 5px ;
+    border-radius: 5px ;
+    text-align: left ;
+    padding-bottom: 10px ;
+}
+.title-d7 {
+    margin-top: 0px ;
+    margin-bottom: 4px;
+    font-size: 17px ;
+    font-weight: bold;
+}
+.body-d7 {
+    margin-top: 0px ;
+    margin-bottom: 15px ;
+}
+.d7-button {
+    padding-left: 15px ;
+    padding-right: 15px ;
+    padding-top: 7px ;
+    padding-bottom: 7px;
+    border-radius: 3px ;
+    border: none ;
+    background-color: rgb(0, 102, 165) ;
+    color: white ;
+    font-weight: bold ;
+}
+.img-d7 {
+    width: 200px ;
+    height:  200px ;
+    object-fit: cover ;
+    object-position: center ;
+}
