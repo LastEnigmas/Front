@@ -44,3 +44,86 @@ p {
     border-radius: 30px;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
+.c8 {
+    margin-bottom: 50px ;
+}
+
+.input-firstname {
+    margin-bottom: 10px ;
+    width: 100px ;
+    padding: 10px ;
+    border-radius: 5px ;
+}
+.input-lastname {
+    margin-bottom: 10px ;
+    width: 100px ;
+    padding: 10px ;
+    border-radius: 5px ;
+}
+.input-email {
+    display: block;
+    padding-left: 10px ;
+    padding-right: 45px ;
+    padding-top: 5px ; 
+    padding-bottom: 5px ;
+    border-radius: 5px ;
+}
+.btn-signup {
+    background-color: rgb(0, 94, 255) ;
+    padding-left: 100px ;
+    padding-right: 100px ;
+    padding-top: 8px ;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.d8 {
+    margin-bottom: 50px ;
+}
+
+
+.input-location {
+    display: block;
+    margin-bottom: 5px ;
+    padding-left: 6px ;
+    padding-right: 30px ;
+    padding-top: 5px ;
+    padding-bottom: 5px ;
+    border-radius: 3px ;
+    border: none ;
+    background-color: rgb(216, 216, 216) ;
+}
+.input-destination {
+    display: block;
+    margin-bottom: 20px ;
+    padding-left: 6px ;
+    padding-right: 30px ;
+    padding-top: 5px ;
+    padding-bottom: 5px ;
+    border-radius: 3px ;
+    border: none ;
+    background-color: rgb(216, 216, 216) ;
+}
+.btn-requestnow {
+    margin-bottom: 20px ;
+    padding-left: 10px;
+    padding-right: 10px ;
+    padding-top: 7px ;
+    padding-bottom: 7px ;
+    background-color: black ;
+    color: azure ;
+    border : none; 
+    margin-right: 10px ;
+}
+.btn-forlater {
+    margin-bottom: 20px ;
+    padding-left: 10px;
+    padding-right: 10px ;
+    padding-top: 7px ;
+    padding-bottom: 7px ;
+    background-color: white ;
+    color: black ;
+    border : none; 
+    margin-right: 10px ;
+}
