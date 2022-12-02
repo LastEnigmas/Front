@@ -1,0 +1,38 @@
+.allBtnDiv {
+    margin-bottom: 50px ;
+}
+
+.youtubeDiv {
+    margin-left: 5px;
+    margin-bottom: 7px ;
+}
+.youtube-btn {
+    color: white;
+    background-color: rgb(202, 0, 0);
+    padding-left: 15px ;
+    padding-right: 15px ; 
+    padding-top: 9px ;
+    padding-bottom: 9px;
+    border-radius: 3px;
+    border: none ;
+    transition: background-color 0.15s;
+    cursor: pointer;
+}
+.youtube-btn:hover {
+    background-color: rgb(225, 75, 75) ;
+}
+.youtube-btn:active {
+    background-color: rgb(224, 107, 107) ;
+}
+
+
+.join-div {
+    margin-left: 5px ;
+}
+.join-btn {
+    padding : 9px 15px ;
+    background-color: white ;
+    font-size: 14px ;
+    color: rgb(20, 20, 255);
+    border: solid 1px rgb(20, 20, 255);
+}
