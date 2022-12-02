@@ -28,11 +28,89 @@
 
 .join-div {
     margin-left: 5px ;
+    margin-bottom: 7px  ;
 }
 .join-btn {
     padding : 9px 15px ;
     background-color: white ;
     font-size: 14px ;
-    color: rgb(20, 20, 255);
-    border: solid 1px rgb(20, 20, 255);
+    color: rgb(46, 46, 255);
+    border: solid 1px rgb(46, 46, 255);
+    transition: color 0.25s , background-color 0.25s ;
+    border-radius: 3px ;
+}
+.join-btn:hover {
+    background-color:  rgb(46, 46, 255);
+    color : white ;
+}
+.join-btn:active {
+    background-color: rgb(130, 130, 255); 
+}
+
+.tweet-div {
+    margin-left: 5px ;
+}
+.tweet-btn {
+    padding: 9px 15px ;
+    background-color: rgb(37, 118, 250);
+    color: white ;
+    border-radius: 25px  ;
+    border: none ;
+
+    font-weight: bold ;
+    font-size: 15px ;
+    transition: box-shadow 0.15s;
+
+}
+.tweet-btn:hover {
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 20%);
+}
+.tweet-btn:active {
+    background-color: rgb(76, 142, 249);
+}
+
+
+.all-text-btnDiv {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px ;
+}
+.p-youtube-title {
+    font-weight: bold ;
+    font-size: 20px ;
+    width: 340px;
+    margin-bottom: 0px ;
+}
+.p-youtube-staff {
+    margin-top: 7px;
+    margin-bottom: 0px ;
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+}
+.p-youtube-author {
+    margin-top: 20px ;
+    font-size: 15;
+    color: rgb(96, 96, 96);
+}
+.p-youtube-body {
+    color: rgb(96, 96, 96);
+    width: 300px;
+}
+
+
+.apple-text {
+    height: 60px ;
+    background-color: rgb(240, 61, 61);
+    object-position: middle;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px ;
+    margin-top: 50px ;
+}
+.title-apple {
+    object-position: middle ;
+    text-align: center;
+    padding-top: 20px ;
+}
+.span-apple:hover {
+    text-decoration: underline;
 }
